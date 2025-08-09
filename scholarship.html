@@ -268,5 +268,14 @@
 <footer>
         <p>&copy; 2025 Amity University Bengaluru. All rights reserved.</p>
     </footer>
+    <script>
+        function submitForm(e) {
+            e.preventDefault();
+            alert('Thank you for contacting us!');
+            document.getElementById('name').value = '';
+            document.getElementById('email').value = '';
+            document.getElementById('message').value = '';
+        }
+    </script>
 
 >>>>>>> section_class5
